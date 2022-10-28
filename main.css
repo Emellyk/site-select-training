@@ -1,0 +1,86 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #001F55;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color:#F37A02;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cursos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #EAEAEA;
+}
+
+.section-title {
+    font-family: Bangers, cursive;
+}
+
+#sobre-a-escola,
+#cursos {
+    background-color: #EAEAEA;
+}
+
+.text-colored {
+    color: #F37A02;
+}
+
+.nav-cursos .nav-link.active {
+    background-color: #F37A02;
+    color:#fff
+}
+
+.nav-cursos .nav-link:hover {
+    color:#F37A02
+}
+
+.btn-primary {
+    background-color: #274985;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #001F55;
+}
+
+.form-label {
+    color:#001F55;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+h4 {
+    font-family: Sacramento, cursive;
+    color: #001F55;
+    font-size: 50px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #001F55;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
